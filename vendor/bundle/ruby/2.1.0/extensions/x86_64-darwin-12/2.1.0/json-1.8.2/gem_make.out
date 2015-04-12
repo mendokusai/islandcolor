@@ -1,0 +1,10 @@
+/Users/portabledino/.rvm/rubies/ruby-2.1.4/bin/ruby -r ./siteconf20150412-52208-h5z6r8.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+installing default libraries

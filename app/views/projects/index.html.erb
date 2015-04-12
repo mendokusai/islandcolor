@@ -1,0 +1,11 @@
+<ul>
+<% @projects.each do |project| %>
+  <li>
+    <h1><%= project.title %></h1>
+    <%= project.author %>
+    <%= project.number %>
+    <%= project.date %>
+    <p><%= project.text %></p>
+  </li>
+<% end %>
+</ul>
